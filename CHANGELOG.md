@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-14)
+## Unreleased (2025-09-15)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`905019c`](https://github.com/stdlib-js/stdlib/commit/905019c024611308865950e3d1dd51c642176e82) - **docs:** fix grammar in function descriptions _(by Philipp Burckhardt)_
 -   [`160d653`](https://github.com/stdlib-js/stdlib/commit/160d653473e812a90e424db13db12ef32371c7b1) - **test:** use `strictEqual` assertions _(by Athan Reines)_
 -   [`15eb448`](https://github.com/stdlib-js/stdlib/commit/15eb448967586685512d4624d5833d39101ad39c) - **docs:** fix copy _(by Athan Reines)_
 -   [`3c008bb`](https://github.com/stdlib-js/stdlib/commit/3c008bbe939586f9738164ce4321d18b92bc9291) - **docs:** fix missing parameter _(by Athan Reines)_
@@ -38,10 +39,11 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Athan Reines
+-   Philipp Burckhardt
 
 </section>
 
