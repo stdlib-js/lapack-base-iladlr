@@ -44,7 +44,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-iladlr = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base-iladlr@umd/browser.js' )
+iladlr = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base-iladlr@v0.1.0-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -56,7 +56,7 @@ var iladlr = require( 'path/to/vendor/umd/lapack-base-iladlr/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base-iladlr@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base-iladlr@v0.1.0-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -192,7 +192,7 @@ var out = iladlr.ndarray( 3, 2, A, 2, 1, 1 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-to-array@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-shape2strides@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base-iladlr@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base-iladlr@v0.1.0-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
