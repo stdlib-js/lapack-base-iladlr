@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import iladlr from 'https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base-iladlr@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/lapack-base-iladlr/tags). For example,
+
+```javascript
 import iladlr from 'https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base-iladlr@v0.1.0-esm/index.mjs';
 ```
 
@@ -170,7 +175,7 @@ var out = iladlr.ndarray( 3, 2, A, 2, 1, 1 );
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-to-array@esm/index.mjs';
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
 import shape2strides from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-shape2strides@esm/index.mjs';
-import iladlr from 'https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base-iladlr@v0.1.0-esm/index.mjs';
+import iladlr from 'https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base-iladlr@esm/index.mjs';
 
 var shape = [ 3, 3 ];
 var order = 'row-major';
