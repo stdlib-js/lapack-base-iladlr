@@ -2,6 +2,41 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-02-23)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`cc6f4ba`](https://github.com/stdlib-js/stdlib/commit/cc6f4bab257a418105ee8f914e94130c7a3608ea) - **bench:** refactor to use string interpolation in `lapack/base/iladlr` [(#10120)](https://github.com/stdlib-js/stdlib/pull/10120) _(by Prajjwal Bajpai, Athan Reines)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Prajjwal Bajpai
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.1.1">
 
 ## 0.1.1 (2026-02-08)
